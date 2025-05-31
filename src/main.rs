@@ -1,6 +1,5 @@
 use crossterm::event::{self, Event, KeyCode, KeyEvent, KeyEventKind};
 use std::io;
-use std::time::Duration;
 
 use ratatui::{
     DefaultTerminal, Frame,
